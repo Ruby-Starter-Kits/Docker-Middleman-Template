@@ -4,14 +4,14 @@
 version: '2.4'
 
 x-app: &app
-  image: middleman:latest
+  image: middleman:0.1.0
   mem_limit: 512m
+  tmpfs:
+    - /tmp
   build:
     context: .
     dockerfile: Dockerfile
     target: development
-  env_file:
-    - .env
   volumes:
     - .:/usr/src/app:cached
     - bundler:/usr/local/bundle:delegated
