@@ -98,7 +98,7 @@ GEM
       execjs (>= 0.3.0, < 3)
 
 PLATFORMS
-  x86_64-linux
+  ruby
 
 DEPENDENCIES
   middleman (~> 4.2)
@@ -107,4 +107,4 @@ DEPENDENCIES
   wdm (~> 0.1)
 
 BUNDLED WITH
-   2.2.1
+   2.1.4
