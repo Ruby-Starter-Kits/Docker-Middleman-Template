@@ -10,7 +10,7 @@ GEM
       public_suffix (>= 2.0.2, < 5.0)
     autoprefixer-rails (9.8.6.5)
       execjs
-    backports (3.18.2)
+    backports (3.20.0)
     coffee-script (2.4.1)
       coffee-script-source
       execjs
@@ -21,8 +21,8 @@ GEM
     erubis (2.7.0)
     execjs (2.7.0)
     fast_blank (1.0.0)
-    fastimage (2.2.0)
-    ffi (1.13.1)
+    fastimage (2.2.1)
+    ffi (1.14.2)
     haml (5.2.1)
       temple (>= 0.8.0)
       tilt
@@ -92,7 +92,7 @@ GEM
     thor (1.0.1)
     thread_safe (0.3.6)
     tilt (2.0.10)
-    tzinfo (1.2.8)
+    tzinfo (1.2.9)
       thread_safe (~> 0.1)
     uglifier (3.2.0)
       execjs (>= 0.3.0, < 3)
